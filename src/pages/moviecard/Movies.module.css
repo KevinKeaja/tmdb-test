@@ -1,0 +1,140 @@
+.movie_banner {
+  display: flex;
+  background-image: url("/src/pages/moviecard/movies.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1920px;
+  height: 980px;
+  flex-shrink: 0;
+}
+.p1 {
+    color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 200px;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding-top: 50px;
+  padding-left: 300px;
+  
+}
+.p2 {
+    padding-left: 400px;
+    color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 120px;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.8px; /* 49.844% */
+  letter-spacing: -3px;
+  text-transform: uppercase;
+}
+.p3 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  width: 554.747px;
+  margin-top: -90px;
+  padding-left: 700px;
+}
+.red {
+  color: #ff1744;
+}
+.button {
+  display: flex;
+  width: 166px;
+  height: 56px;
+  padding: 9px 19.109px 9px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #ff1744;
+}
+.button p {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  text-transform: capitalize;
+}
+.buttonc {
+  padding-left: 900px;
+}
+
+/* css for cards */
+.card {
+  width: 1920px;
+  height: 2200px;
+  background: #0d111c;
+  padding-top: 100px;
+}
+
+.movie_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movie_card {
+  background: #24446b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  max-width: 407px;
+  width: calc(25% - 16px); 
+  margin-bottom: 50px;
+}
+
+.movie_card img {
+  width: 407px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.movie_card p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  padding-left: 20px;
+}
+
+
+.title_box {
+  width: 407px;
+  height: 109px;
+  flex-shrink: 0;
+}
+.star{
+    padding-left: 30px;
+    color: gold;
+}
+/* css for play  */
+.play{
+    position: relative;
+    margin-left: 340px;
+    margin-top: -60px;
+    color: #1DBDBD;
+    text-decoration: none;
+   
+}
+.playButton{
+    width: 50px;
+height: 70px;
+flex-shrink: 0;
+    background: #24446B;
+}
