@@ -1,0 +1,27 @@
+.navbar {
+  width: 1920px;
+  height: 100px;
+  flex-shrink: 0;
+  background: #263e60;
+}
+.ticket {
+  padding: 10px 10px 10px 58px;
+  width: 96px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.right {
+  text-align: right;
+  margin-top: -115px;
+  padding-right: 50px;
+}
+.logout{
+  color: #FFF;
+font-family: Calibri;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+text-decoration: none;
+}

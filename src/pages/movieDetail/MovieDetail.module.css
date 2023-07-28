@@ -1,0 +1,82 @@
+.detail {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  background: #0d111c;
+  width: 1920px;
+  position: relative;
+}
+.left {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.p1 {
+  color: #fff;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.p2 {
+  color: #fff;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.p3 {
+  color: #dddbdb;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.p4 {
+  color: #fff;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.p5 {
+  margin-top: -45px;
+  color: #fff;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.play {
+  width: 900px;
+  max-height: 800px;
+}
+.playButton {
+  width: 350px;
+  height: 170px;
+  flex-shrink: 0;
+  color: #1dbdbd;
+}
+
+.playButton {
+  position: absolute; 
+  top: 55%; 
+  left: 55%;
+  transform: translate(-50%, -50%); 
+  font-size: 48px;
+  color: white; 
+  cursor: pointer;
+}
